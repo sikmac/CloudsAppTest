@@ -1,12 +1,6 @@
-//
-//  ViewController.swift
-//  CloudsApp
-//
-//  Created by sikmac on 2017/7/24.
-//  Copyright © 2017年 sikmac. All rights reserved.
-//
-
 import UIKit
+
+
 
 class ViewController: UIViewController {
 
