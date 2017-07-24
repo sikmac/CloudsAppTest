@@ -12,6 +12,8 @@
 		390C37811F25C7730029300C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390C377F1F25C7730029300C /* Main.storyboard */; };
 		390C37831F25C7730029300C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390C37821F25C7730029300C /* Assets.xcassets */; };
 		390C37861F25C7730029300C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390C37841F25C7730029300C /* LaunchScreen.storyboard */; };
+		39578C3F1F25CFA6001FB9E1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39578C321F25CEA6001FB9E1 /* Alamofire.framework */; };
+		39578C401F25CFA6001FB9E1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39578C321F25CEA6001FB9E1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,13 @@
 			remoteGlobalIDString = E4202FE01B667AA100C997FB;
 			remoteInfo = "Alamofire watchOS";
 		};
+		39578C411F25CFA6001FB9E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39578C261F25CEA6001FB9E1 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				39578C401F25CFA6001FB9E1 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39578C3F1F25CFA6001FB9E1 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				39578C421F25CFA6001FB9E1 /* PBXTargetDependency */,
 			);
 			name = CloudsApp;
 			productName = CloudsApp;
@@ -283,6 +295,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39578C421F25CFA6001FB9E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 39578C411F25CFA6001FB9E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		390C377F1F25C7730029300C /* Main.storyboard */ = {
